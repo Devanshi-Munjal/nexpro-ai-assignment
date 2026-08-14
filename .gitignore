@@ -31,3 +31,6 @@ logs/
 
 # Large local datasets
 data/raw/
+
+# Local Qdrant database
+data/qdrant/
