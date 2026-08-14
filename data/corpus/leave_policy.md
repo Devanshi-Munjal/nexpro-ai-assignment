@@ -9,8 +9,7 @@ Carried-forward annual leave must be used by March 31 of the following year. Unu
 
 ## 2. Sick Leave
 
-Employees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is nexpectedly
-ill. Employees should notify their manager as soon as reasonably  possible.
+Employees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.
 A medical certificate may be requested when an employee is absent for more than 3 consecutive working days.
 
 ## 3. Public Holidays

@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import List, Dict
-
+import os
+from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
 
@@ -83,17 +84,105 @@ def load_corpus(corpus_dir: Path) -> List[Dict]:
 
     return documents
 
+load_dotenv()
+
+CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "500"))
+CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "100"))
+
+os.getenv("CHUNK_SIZE", "500")
+
+def chunk_text(text: str, chunk_size: int, overlap: int) -> List[str]:
+    """Split text into overlapping chunks without breaking words."""
+
+    if chunk_size <= 0:
+        raise ValueError("chunk_size must be greater than 0")
+
+    if overlap < 0:
+        raise ValueError("overlap cannot be negative")
+
+    if overlap >= chunk_size:
+        raise ValueError("overlap must be smaller than chunk_size")
+
+    chunks = []
+    start = 0
+
+    while start < len(text):
+        target_end = min(start + chunk_size, len(text))
+
+        # End the chunk at a word boundary.
+        if target_end < len(text):
+            end = text.rfind(" ", start, target_end)
+
+            if end <= start:
+                end = target_end
+        else:
+            end = target_end
+
+        chunk = text[start:end].strip()
+
+        if chunk:
+            chunks.append(chunk)
+
+        if end >= len(text):
+            break
+
+        # Keep approximately `overlap` characters from the previous chunk.
+        overlap_start = max(start, end - overlap)
+
+        # Start at the beginning of the word containing overlap_start.
+        previous_space = text.rfind(" ", start, overlap_start)
+
+        if previous_space == -1:
+            start = overlap_start
+        else:
+            start = previous_space + 1
+
+    return chunks
+
+def create_chunks(document: Dict) -> List[Dict]:
+    """Create chunk records with metadata for a single document."""
+
+    chunks = chunk_text(
+        document["text"],
+        CHUNK_SIZE,
+        CHUNK_OVERLAP,
+    )
+
+    chunk_records = []
+
+    for index, chunk in enumerate(chunks):
+        chunk_records.append(
+            {
+                "chunk_id": f"{document['document_id']}_{index}",
+                "document_id": document["document_id"],
+                "source": document["source"],
+                "file_type": document["file_type"],
+                "chunk_index": index,
+                "text": chunk,
+            }
+        )
+
+    return chunk_records
 
 if __name__ == "__main__":
     documents = load_corpus(CORPUS_DIR)
 
-    print(f"Loaded {len(documents)} documents.\n")
+    print(f"Loaded {len(documents)} documents.")
+    print(f"Chunk size: {CHUNK_SIZE}")
+    print(f"Chunk overlap: {CHUNK_OVERLAP}\n")
+
+    all_chunks = []
 
     for document in documents:
+        chunks = create_chunks(document)
+        all_chunks.extend(chunks)
+
         print("=" * 70)
         print(f"Document: {document['source']}")
-        print(f"Type: {document['file_type']}")
-        print(f"Characters: {len(document['text'])}")
-        print()
-        print(document["text"][:500])
-        print()
+        print(f"Chunks: {len(chunks)}")
+
+    print("\n" + "=" * 70)
+    print(f"Total chunks: {len(all_chunks)}")
+
+    print("\nExample chunk record:")
+    print(all_chunks[0])
