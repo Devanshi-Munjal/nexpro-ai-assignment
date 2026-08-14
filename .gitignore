@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model/cache files
+.cache/
+huggingface_cache/
+
+# Local vector database
+qdrant_storage/
+
+# Generated outputs
+outputs/
+logs/
+
+# Large local datasets
+data/raw/
