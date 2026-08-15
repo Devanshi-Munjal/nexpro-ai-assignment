@@ -1,0 +1,19 @@
+DUNDER MIFFLIN RAG RETRIEVAL EVALUATION
+=============================================
+
+Top-K: 5
+
+ANSWERABLE QUESTIONS
+-------------------------
+Total:  26
+Hits:   25
+Misses: 1
+Hit@5: 0.9615 (96.15%)
+
+UNANSWERABLE QUESTIONS
+-------------------------
+Total: 4
+
+NOTE
+-------------------------
+Hit@K is calculated only on answerable questions. Unanswerable questions are evaluated separately during end-to-end RAG evaluation.

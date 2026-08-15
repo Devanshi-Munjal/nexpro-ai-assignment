@@ -1,0 +1,478 @@
+[
+  {
+    "question_id": "q01",
+    "question": "How many annual leave days can an employee carry forward?",
+    "answerable": true,
+    "relevant_chunks": [
+      "leave_policy_0"
+    ],
+    "retrieved_chunks": [
+      "leave_policy_0",
+      "leave_policy_1",
+      "leave_policy_2",
+      "travel_policy_4",
+      "remote_work_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q02",
+    "question": "How many paid sick leave days do employees receive each year?",
+    "answerable": true,
+    "relevant_chunks": [
+      "leave_policy_1"
+    ],
+    "retrieved_chunks": [
+      "leave_policy_1",
+      "leave_policy_0",
+      "leave_policy_2",
+      "benefits_0",
+      "benefits_1"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q03",
+    "question": "When do carried-forward annual leave days expire?",
+    "answerable": true,
+    "relevant_chunks": [
+      "leave_policy_0"
+    ],
+    "retrieved_chunks": [
+      "leave_policy_1",
+      "leave_policy_0",
+      "leave_policy_2",
+      "travel_policy_4",
+      "benefits_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q04",
+    "question": "How long does a new employee have to enroll in the health insurance plan?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_0"
+    ],
+    "retrieved_chunks": [
+      "benefits_0",
+      "benefits_1",
+      "leave_policy_1",
+      "benefits_4",
+      "leave_policy_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q05",
+    "question": "How much does Dunder Mifflin match of an employee's retirement contribution?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_1"
+    ],
+    "retrieved_chunks": [
+      "benefits_1",
+      "leave_policy_0",
+      "benefits_2",
+      "employee_handbook_0",
+      "benefits_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q06",
+    "question": "What is the maximum reimbursable amount for an individual business meal?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_0"
+    ],
+    "retrieved_chunks": [
+      "expense_policy_1",
+      "expense_policy_0",
+      "travel_policy_2",
+      "benefits_2",
+      "employee_handbook_5"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q07",
+    "question": "Are alcoholic beverages reimbursable as business expenses?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_1"
+    ],
+    "retrieved_chunks": [
+      "expense_policy_1",
+      "employee_handbook_5",
+      "expense_policy_0",
+      "employee_handbook_4",
+      "expense_policy_2"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q08",
+    "question": "What approval is required for equipment purchases above ₹15,000?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_1"
+    ],
+    "retrieved_chunks": [
+      "procurement_2",
+      "expense_policy_1",
+      "procurement_1",
+      "travel_policy_3",
+      "employee_handbook_4"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q09",
+    "question": "What is the minimum required length for a company password?",
+    "answerable": true,
+    "relevant_chunks": [
+      "it_security_0"
+    ],
+    "retrieved_chunks": [
+      "it_security_0",
+      "it_security_1",
+      "it_security_2",
+      "remote_work_2",
+      "it_security_3"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q10",
+    "question": "What should an employee do if they receive an unexpected MFA request?",
+    "answerable": true,
+    "relevant_chunks": [
+      "it_security_1"
+    ],
+    "retrieved_chunks": [
+      "it_security_1",
+      "it_security_0",
+      "travel_policy_5",
+      "benefits_2",
+      "procurement_4"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q11",
+    "question": "How many days per week can eligible employees work remotely?",
+    "answerable": true,
+    "relevant_chunks": [
+      "remote_work_0"
+    ],
+    "retrieved_chunks": [
+      "remote_work_0",
+      "employee_handbook_1",
+      "employee_handbook_2",
+      "remote_work_1",
+      "remote_work_2"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q12",
+    "question": "What are the core working hours for employees working remotely?",
+    "answerable": true,
+    "relevant_chunks": [
+      "remote_work_0",
+      "remote_work_1"
+    ],
+    "retrieved_chunks": [
+      "employee_handbook_1",
+      "remote_work_0",
+      "employee_handbook_2",
+      "remote_work_1",
+      "remote_work_2"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q13",
+    "question": "Who must approve international business travel?",
+    "answerable": true,
+    "relevant_chunks": [
+      "travel_policy_0"
+    ],
+    "retrieved_chunks": [
+      "travel_policy_0",
+      "employee_handbook_6",
+      "employee_handbook_5",
+      "travel_policy_3",
+      "travel_policy_2"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q14",
+    "question": "What class of air travel can employees book for domestic business trips?",
+    "answerable": true,
+    "relevant_chunks": [
+      "travel_policy_1"
+    ],
+    "retrieved_chunks": [
+      "travel_policy_1",
+      "employee_handbook_6",
+      "travel_policy_0",
+      "travel_policy_2",
+      "employee_handbook_5"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q15",
+    "question": "What system should employees use to purchase standard office supplies?",
+    "answerable": true,
+    "relevant_chunks": [
+      "procurement_0",
+      "procurement_1"
+    ],
+    "retrieved_chunks": [
+      "procurement_1",
+      "procurement_0",
+      "procurement_2",
+      "employee_handbook_4",
+      "procurement_3"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q16",
+    "question": "Can employees use personal funds for recurring business purchases?",
+    "answerable": true,
+    "relevant_chunks": [
+      "procurement_0"
+    ],
+    "retrieved_chunks": [
+      "procurement_0",
+      "employee_handbook_5",
+      "employee_handbook_6",
+      "employee_handbook_4",
+      "expense_policy_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q17",
+    "question": "What are Dunder Mifflin's standard office hours?",
+    "answerable": true,
+    "relevant_chunks": [
+      "employee_handbook_1"
+    ],
+    "retrieved_chunks": [
+      "employee_handbook_0",
+      "remote_work_0",
+      "leave_policy_0",
+      "benefits_2",
+      "leave_policy_2"
+    ],
+    "hit_at_k": false
+  },
+  {
+    "question_id": "q18",
+    "question": "What is Dunder Mifflin's policy for employees bringing pet llamas into the office?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "retrieved_chunks": [
+      "employee_handbook_0",
+      "benefits_2",
+      "remote_work_0",
+      "expense_policy_0",
+      "it_security_0"
+    ],
+    "hit_at_k": null
+  },
+  {
+    "question_id": "q19",
+    "question": "How many paid vacation days does Dunder Mifflin give employees after ten years of service?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "retrieved_chunks": [
+      "leave_policy_0",
+      "leave_policy_1",
+      "leave_policy_2",
+      "benefits_2",
+      "benefits_0"
+    ],
+    "hit_at_k": null
+  },
+  {
+    "question_id": "q20",
+    "question": "What is the company's policy on employees receiving bonuses for exceeding their sales targets?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "retrieved_chunks": [
+      "employee_handbook_7",
+      "benefits_1",
+      "it_security_3",
+      "employee_handbook_6",
+      "procurement_0"
+    ],
+    "hit_at_k": null
+  },
+  {
+    "question_id": "q21",
+    "question": "What is the maximum annual reimbursement available for job-related courses or certifications?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_1",
+      "benefits_2"
+    ],
+    "retrieved_chunks": [
+      "benefits_2",
+      "expense_policy_1",
+      "travel_policy_2",
+      "benefits_1",
+      "expense_policy_2"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q22",
+    "question": "Who should employees contact about questions concerning health insurance and retirement benefits?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_4"
+    ],
+    "retrieved_chunks": [
+      "benefits_4",
+      "benefits_0",
+      "benefits_1",
+      "benefits_3",
+      "employee_handbook_7"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q23",
+    "question": "How long do employees normally have to submit an expense claim?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_2"
+    ],
+    "retrieved_chunks": [
+      "expense_policy_2",
+      "travel_policy_4",
+      "expense_policy_3",
+      "employee_handbook_5",
+      "leave_policy_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q24",
+    "question": "At what expense amount are receipts required?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_2"
+    ],
+    "retrieved_chunks": [
+      "expense_policy_2",
+      "expense_policy_3",
+      "employee_handbook_5",
+      "expense_policy_1",
+      "expense_policy_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q25",
+    "question": "How quickly must a lost company device be reported to IT Security?",
+    "answerable": true,
+    "relevant_chunks": [
+      "it_security_2"
+    ],
+    "retrieved_chunks": [
+      "it_security_2",
+      "employee_handbook_4",
+      "remote_work_2",
+      "expense_policy_2",
+      "it_security_1"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q26",
+    "question": "What approval is required for equipment costing ₹15,000 or less?",
+    "answerable": true,
+    "relevant_chunks": [
+      "procurement_2"
+    ],
+    "retrieved_chunks": [
+      "procurement_2",
+      "expense_policy_1",
+      "procurement_1",
+      "travel_policy_3",
+      "expense_policy_3"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q27",
+    "question": "What equipment does the company provide to eligible remote employees?",
+    "answerable": true,
+    "relevant_chunks": [
+      "remote_work_2"
+    ],
+    "retrieved_chunks": [
+      "remote_work_2",
+      "remote_work_3",
+      "employee_handbook_4",
+      "it_security_3",
+      "remote_work_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q28",
+    "question": "How much hotel accommodation can be reimbursed per night in a Tier 1 city?",
+    "answerable": true,
+    "relevant_chunks": [
+      "travel_policy_1",
+      "travel_policy_2"
+    ],
+    "retrieved_chunks": [
+      "travel_policy_2",
+      "travel_policy_1",
+      "expense_policy_1",
+      "travel_policy_3",
+      "expense_policy_0"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q29",
+    "question": "How long is the normal probation period for new employees?",
+    "answerable": true,
+    "relevant_chunks": [
+      "employee_handbook_2"
+    ],
+    "retrieved_chunks": [
+      "employee_handbook_2",
+      "employee_handbook_1",
+      "remote_work_0",
+      "leave_policy_0",
+      "leave_policy_1"
+    ],
+    "hit_at_k": true
+  },
+  {
+    "question_id": "q30",
+    "question": "How much maternity leave does Dunder Mifflin provide to employees?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "retrieved_chunks": [
+      "benefits_2",
+      "leave_policy_0",
+      "benefits_1",
+      "leave_policy_2",
+      "benefits_0"
+    ],
+    "hit_at_k": null
+  }
+]
