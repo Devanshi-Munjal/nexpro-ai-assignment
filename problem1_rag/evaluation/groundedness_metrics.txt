@@ -1,0 +1,170 @@
+
+DUNDER MIFFLIN RAG GROUNDEDNESS EVALUATION
+============================================
+
+NLI MODEL
+--------------------------------------------
+cross-encoder/nli-deberta-v3-small
+
+ENTAILMENT THRESHOLD
+--------------------------------------------
+0.80
+
+ANSWERABLE QUESTIONS
+--------------------------------------------
+Questions: 26
+Claims evaluated: 26
+
+Grounded claims:       20
+Unsupported claims:    6
+
+Grounded Claim Rate:
+0.7692 (76.92%)
+
+Unsupported Claim Rate:
+0.2308 (23.08%)
+
+Fully supported answers:
+20
+
+Partially supported answers:
+6
+
+UNANSWERABLE QUESTIONS
+--------------------------------------------
+Total: 4
+Correct refusals: 4
+
+METHODOLOGY
+--------------------------------------------
+Each generated answer is split into sentence-level claims.
+
+Each claim is compared independently against individual
+sentences extracted from the chunks actually retrieved
+by the RAG pipeline.
+
+A claim is classified as entailed when the maximum NLI
+entailment score across retrieved evidence sentences is
+at least 0.80.
+
+Claims that do not reach the entailment threshold are
+classified as unsupported.
+
+This is an automated NLI-based groundedness proxy and
+should not be interpreted as human-verified ground truth.
+
+
+PER-QUESTION RESULTS
+====================
+
+q01: fully_supported
+  [entailed] An employee can carry forward up to 5 days of unused annual leave into the following calendar year.
+    Entailment: 0.9286 (leave_policy_0)
+
+q02: fully_supported
+  [entailed] Employees receive 10 days of paid sick leave per calendar year.
+    Entailment: 0.9937 (leave_policy_1)
+
+q03: partially_supported
+  [unsupported] Carried-forward annual leave days expire after March 31 of the following year.
+    Entailment: 0.1197 (leave_policy_0)
+
+q04: partially_supported
+  [unsupported] A new employee has 30 days after their start date to enroll in the health insurance plan.
+    Entailment: 0.3393 (benefits_0)
+
+q05: partially_supported
+  [unsupported] Dunder Mifflin matches 50% of the first 6% of eligible employee contributions to the retirement savings plan.
+    Entailment: 0.0203 (leave_policy_0)
+
+q06: fully_supported
+  [entailed] The maximum reimbursable amount for an individual business meal is ₹1,500 including taxes.
+    Entailment: 0.9869 (expense_policy_1)
+
+q07: partially_supported
+  [unsupported] No, alcoholic beverages are not reimbursable as business expenses.
+    Entailment: 0.0191 (expense_policy_1)
+
+q08: fully_supported
+  [entailed] Department-head approval is required for equipment purchases above ₹15,000.
+    Entailment: 0.9981 (expense_policy_1)
+
+q09: fully_supported
+  [entailed] The minimum required length for a company password is 12 characters.
+    Entailment: 0.9950 (it_security_0)
+
+q10: partially_supported
+  [unsupported] The employee should report the unexpected MFA request to IT Security.
+    Entailment: 0.0141 (it_security_1)
+
+q11: fully_supported
+  [entailed] Eligible employees can work remotely for up to 2 days per week.
+    Entailment: 0.9981 (remote_work_0)
+
+q12: fully_supported
+  [entailed] The core working hours for employees working remotely are 10:00 AM to 5:00 PM, Monday through Friday.
+    Entailment: 0.9970 (remote_work_0)
+
+q13: fully_supported
+  [entailed] The employee's department head and the Finance team must approve international business travel.
+    Entailment: 0.9983 (travel_policy_0)
+
+q14: fully_supported
+  [entailed] Employees can book economy-class air travel for domestic business trips.
+    Entailment: 0.9982 (travel_policy_1)
+
+q15: fully_supported
+  [entailed] Employees should use the company's approved procurement system to purchase standard office supplies.
+    Entailment: 0.9943 (procurement_0)
+
+q16: fully_supported
+  [entailed] No, employees should not use personal funds for recurring business purchases unless the purchase has been approved under the applicable expense process.
+    Entailment: 0.9922 (procurement_0)
+
+q17: partially_supported
+  [unsupported] Dunder Mifflin's standard office hours are 9:00 AM to 5:00 PM, Monday through Friday.
+    Entailment: 0.0055 (leave_policy_0)
+
+q18: refusal
+
+q19: refusal
+
+q20: refusal
+
+q21: fully_supported
+  [entailed] The maximum annual reimbursement available for job-related courses or certifications is ₹20,000.
+    Entailment: 0.9932 (benefits_1)
+
+q22: fully_supported
+  [entailed] Employees should contact the People Operations team for questions concerning health insurance and retirement benefits.
+    Entailment: 0.9924 (benefits_4)
+
+q23: fully_supported
+  [entailed] Employees normally have 15 calendar days to submit an expense claim.
+    Entailment: 0.9717 (expense_policy_2)
+
+q24: fully_supported
+  [entailed] Receipts are required for expenses of ₹500 or more.
+    Entailment: 0.9929 (expense_policy_2)
+
+q25: fully_supported
+  [entailed] A lost company device must be reported to IT Security within 4 hours of discovery.
+    Entailment: 0.9892 (it_security_2)
+
+q26: fully_supported
+  [entailed] Manager approval is required for equipment costing ₹15,000 or less.
+    Entailment: 0.9984 (procurement_2)
+
+q27: fully_supported
+  [entailed] The company provides eligible remote employees with a laptop and required security software.
+    Entailment: 0.9899 (remote_work_2)
+
+q28: fully_supported
+  [entailed] ₹6,000 per night.
+    Entailment: 0.9898 (travel_policy_2)
+
+q29: fully_supported
+  [entailed] The normal probation period for new employees is six months.
+    Entailment: 0.9984 (employee_handbook_2)
+
+q30: refusal

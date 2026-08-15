@@ -1,0 +1,36 @@
+DUNDER MIFFLIN RAG RETRIEVAL EVALUATION
+=============================================
+
+Top-K: 5
+
+ANSWERABLE QUESTIONS
+-------------------------
+Total: 26
+
+Recall@5:             0.9615 (96.15%)
+Hit Rate@5:            0.9615 (96.15%)
+MRR@5:                 0.8846
+nDCG@5:                0.9008
+Context Precision@5:   0.2231 (22.31%)
+
+UNANSWERABLE QUESTIONS
+-------------------------
+Total: 4
+
+NOTE
+-------------------------
+Retrieval metrics are calculated only on answerable questions
+because unanswerable questions have no relevant chunk labels.
+
+Recall@K measures the proportion of relevant chunks retrieved
+within the top K.
+
+Hit Rate@K measures whether at least one relevant chunk was
+retrieved within the top K.
+
+MRR@K measures the reciprocal rank of the first relevant chunk.
+
+nDCG@K measures ranking quality using binary chunk relevance.
+
+Context Precision@K measures the proportion of retrieved
+top-K chunks that are relevant.

@@ -1,0 +1,1588 @@
+[
+  {
+    "id": "q01",
+    "question": "How many annual leave days can an employee carry forward?",
+    "answerable": true,
+    "relevant_chunks": [
+      "leave_policy_0"
+    ],
+    "gold_answer": "Employees can carry forward up to 5 days of unused annual leave.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6539941712649606,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "leave_policy_1",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6480974016478662,
+        "text": "following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.\nA medical certificate may be requested when an employee is absent for more than 3 consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the"
+      },
+      {
+        "chunk_id": "leave_policy_2",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6073477462257353,
+        "text": "consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the annual company holiday calendar. Public holidays do not reduce an employee's annual leave balance.\n\n## 4. Leave Approval\n\nLeave requests must be submitted through the employee portal. Manager approval is required before planned annual leave is considered\nconfirmed. \nEmployees should not assume that submitting a request automatically means\nthe leave has been approved.\n\n## 5. Parental"
+      },
+      {
+        "chunk_id": "travel_policy_4",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.40635843655235826,
+        "text": "7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned departure date.\n\nTravel advances must be settled within 10 business days after returning from\nthe trip.\n\n## 8. Travel Reimbursement\n\nTravel reimbursement claims should normally be submitted through the expense system within 15 calendar days after returning from a business trip.\nExpenses that were not approved in advance may be rejected unless the employee can demonstrate that the expense was"
+      },
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.4047734564111666,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      }
+    ],
+    "generated_answer": "An employee can carry forward up to 5 days of unused annual leave into the following calendar year.",
+    "retrieval_latency_ms": 257.01328400009515,
+    "generation_latency_ms": 4337.08369299984,
+    "total_latency_ms": 4594.112466999832,
+    "input_tokens": 519,
+    "output_tokens": 20,
+    "total_tokens": 539
+  },
+  {
+    "id": "q02",
+    "question": "How many paid sick leave days do employees receive each year?",
+    "answerable": true,
+    "relevant_chunks": [
+      "leave_policy_1"
+    ],
+    "gold_answer": "Employees receive 10 days of paid sick leave per calendar year.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "leave_policy_1",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.710061205072344,
+        "text": "following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.\nA medical certificate may be requested when an employee is absent for more than 3 consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the"
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.5635680955199929,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "leave_policy_2",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.4526114702385445,
+        "text": "consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the annual company holiday calendar. Public holidays do not reduce an employee's annual leave balance.\n\n## 4. Leave Approval\n\nLeave requests must be submitted through the employee portal. Manager approval is required before planned annual leave is considered\nconfirmed. \nEmployees should not assume that submitting a request automatically means\nthe leave has been approved.\n\n## 5. Parental"
+      },
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.3479904668743308,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      },
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.33556462644006935,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      }
+    ],
+    "generated_answer": "Employees receive 10 days of paid sick leave per calendar year.",
+    "retrieval_latency_ms": 7.368040000073961,
+    "generation_latency_ms": 3492.8578810004183,
+    "total_latency_ms": 3500.237981000282,
+    "input_tokens": 515,
+    "output_tokens": 14,
+    "total_tokens": 529
+  },
+  {
+    "id": "q03",
+    "question": "When do carried-forward annual leave days expire?",
+    "answerable": true,
+    "relevant_chunks": [
+      "leave_policy_0"
+    ],
+    "gold_answer": "Carried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "leave_policy_1",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6771181564888615,
+        "text": "following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.\nA medical certificate may be requested when an employee is absent for more than 3 consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the"
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6296293352007503,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "leave_policy_2",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.5150605148900642,
+        "text": "consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the annual company holiday calendar. Public holidays do not reduce an employee's annual leave balance.\n\n## 4. Leave Approval\n\nLeave requests must be submitted through the employee portal. Manager approval is required before planned annual leave is considered\nconfirmed. \nEmployees should not assume that submitting a request automatically means\nthe leave has been approved.\n\n## 5. Parental"
+      },
+      {
+        "chunk_id": "travel_policy_4",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.42287619725887154,
+        "text": "7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned departure date.\n\nTravel advances must be settled within 10 business days after returning from\nthe trip.\n\n## 8. Travel Reimbursement\n\nTravel reimbursement claims should normally be submitted through the expense system within 15 calendar days after returning from a business trip.\nExpenses that were not approved in advance may be rejected unless the employee can demonstrate that the expense was"
+      },
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.36295083862251076,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      }
+    ],
+    "generated_answer": "Carried-forward annual leave days expire after March 31 of the following year.",
+    "retrieval_latency_ms": 6.8521729999702075,
+    "generation_latency_ms": 3741.2813259998074,
+    "total_latency_ms": 3748.1435400004557,
+    "input_tokens": 505,
+    "output_tokens": 17,
+    "total_tokens": 522
+  },
+  {
+    "id": "q04",
+    "question": "How long does a new employee have to enroll in the health insurance plan?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_0"
+    ],
+    "gold_answer": "The initial benefits enrollment window remains open for 30 days after the employee's start date.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.5806847003506761,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      },
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.3587617203690111,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      },
+      {
+        "chunk_id": "leave_policy_1",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.3447946528060156,
+        "text": "following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.\nA medical certificate may be requested when an employee is absent for more than 3 consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the"
+      },
+      {
+        "chunk_id": "benefits_4",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.32795954873032185,
+        "text": "6. Benefits Questions \nQuestions about health insurance, retirement savings, or benefits enrollment should be \ndirected to the People Operations team. Questions about learning and development \nreimbursement should first be discussed with the employee's manager."
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.28366932051478033,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      }
+    ],
+    "generated_answer": "A new employee has 30 days after their start date to enroll in the health insurance plan.",
+    "retrieval_latency_ms": 21.7817129996547,
+    "generation_latency_ms": 3946.6934290003337,
+    "total_latency_ms": 3968.5012700001607,
+    "input_tokens": 463,
+    "output_tokens": 20,
+    "total_tokens": 483
+  },
+  {
+    "id": "q05",
+    "question": "How much does Dunder Mifflin match of an employee's retirement contribution?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_1"
+    ],
+    "gold_answer": "Dunder Mifflin matches 50% of the first 6% of eligible employee contributions.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.691320728570394,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.4993326323973357,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.48268667392033504,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "employee_handbook_0",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.4703575445109421,
+        "text": "Dunder Mifflin Paper Company \nEmployee Handbook \n1. About Dunder Mifflin \nDunder Mifflin Paper Company is a regional paper and office-supplies company. Employees \nare expected to act professionally, protect company information, follow applicable company \npolicies, and use company resources responsibly. \nThis handbook provides general guidance. Where a specific company policy contains a more \ndetailed rule, the specific policy takes precedence. \n2. Working Hours \nStandard office hours are 9:00"
+      },
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.45783616925120435,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      }
+    ],
+    "generated_answer": "Dunder Mifflin matches 50% of the first 6% of eligible employee contributions to the retirement savings plan.",
+    "retrieval_latency_ms": 7.319378999454784,
+    "generation_latency_ms": 4732.426796999789,
+    "total_latency_ms": 4739.758691000134,
+    "input_tokens": 519,
+    "output_tokens": 27,
+    "total_tokens": 546
+  },
+  {
+    "id": "q06",
+    "question": "What is the maximum reimbursable amount for an individual business meal?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_0"
+    ],
+    "gold_answer": "The maximum reimbursable amount for an individual business meal is ₹1,500 including taxes.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.7748151382639605,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "expense_policy_0",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.5288280728617503,
+        "text": "Dunder Mifflin — Business Expense Policy\nDunder Mifflin Paper Company\nBusiness Expense Policy\n1. General Rules\nBusiness expenses must be reasonable, necessary, and related to legitimate\ncompany activities.\nEmployees should obtain the required approval before making unusual or\nhigh-value business purchases.\n2. Business Meals\nEmployees travelling for business may claim reasonable meal expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic"
+      },
+      {
+        "chunk_id": "travel_policy_2",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.4481638142780802,
+        "text": "reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to ₹4,000 per night for travel to other cities.\n\nEmployees should use company-approved hotels or booking channels when available.\n\n## 5. International Travel\n\nEmployees travelling internationally may book economy-class air travel. Premium economy may be approved for journeys longer than eight hours. \nInternational tickets must not be purchased before the required department head and Finance"
+      },
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.3089878126932427,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.2704758219662697,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      }
+    ],
+    "generated_answer": "The maximum reimbursable amount for an individual business meal is ₹1,500 including taxes.",
+    "retrieval_latency_ms": 7.5417119996927795,
+    "generation_latency_ms": 4043.8673310000013,
+    "total_latency_ms": 4051.420433000203,
+    "input_tokens": 483,
+    "output_tokens": 21,
+    "total_tokens": 504
+  },
+  {
+    "id": "q07",
+    "question": "Are alcoholic beverages reimbursable as business expenses?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_1"
+    ],
+    "gold_answer": "No. Alcoholic beverages are not reimbursable.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.6114160203861796,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5290591894464939,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      },
+      {
+        "chunk_id": "expense_policy_0",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.5070619992725889,
+        "text": "Dunder Mifflin — Business Expense Policy\nDunder Mifflin Paper Company\nBusiness Expense Policy\n1. General Rules\nBusiness expenses must be reasonable, necessary, and related to legitimate\ncompany activities.\nEmployees should obtain the required approval before making unusual or\nhigh-value business purchases.\n2. Business Meals\nEmployees travelling for business may claim reasonable meal expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic"
+      },
+      {
+        "chunk_id": "employee_handbook_4",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.44893744083524323,
+        "text": "services. \n \n5. Company Equipment \nCompany-issued laptops and other equipment remain company property. Employees must \ntake reasonable care of company equipment and must report lost or stolen equipment to \nthe appropriate IT or security team. Equipment purchases and reimbursements are \ngoverned by the applicable Procurement and Business Expense policies. \n6. Business Expenses \nEmployees may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the"
+      },
+      {
+        "chunk_id": "expense_policy_2",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.447248508319579,
+        "text": "by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are not reimbursable.\n5. Receipts\nReceipts are required for expenses of\n₹500 or more\n.\nIf a receipt cannot be obtained, the employee must provide a written\nexplanation when submitting the expense claim.\n6. Expense Submission\nExpense claims should normally be submitted within\n15 calendar days\nof the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7."
+      }
+    ],
+    "generated_answer": "No, alcoholic beverages are not reimbursable as business expenses.",
+    "retrieval_latency_ms": 7.104288999471464,
+    "generation_latency_ms": 3348.3510409996597,
+    "total_latency_ms": 3355.468576999556,
+    "input_tokens": 476,
+    "output_tokens": 13,
+    "total_tokens": 489
+  },
+  {
+    "id": "q08",
+    "question": "What approval is required for equipment purchases above ₹15,000?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_1"
+    ],
+    "gold_answer": "Equipment purchases above ₹15,000 require department-head approval before purchase.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "procurement_2",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.766514109553659,
+        "text": "the\nprocurement system.\n\nEquipment purchases above ₹15,000 require department-head approval before the purchase is made.\n\nEquipment purchases of ₹15,000 or less require manager approval.\n\n## 4. Software Purchases\n\nSoftware required for an employee's work must be approved by the employee's manager and the IT department before purchase.\n\nEmployees must not purchase software using a personal account when the\nsoftware will be used to store or process company information.\n\n## 5. Vendor"
+      },
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.6231344152219076,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "procurement_1",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.5913282329576169,
+        "text": "Supplies\n\nRoutine office supplies such as paper, pens, folders, printer supplies, and other standard stationery should be requested through the office procurement system.\n\nEmployees should contact the office administrator when a standard supply is not available through the normal ordering process.\n\n## 3. Equipment Purchases\n\nEquipment required for an employee's work may be requested through the\nprocurement system.\n\nEquipment purchases above ₹15,000 require department-head approval before the"
+      },
+      {
+        "chunk_id": "travel_policy_3",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.550667597050799,
+        "text": "eight hours. \nInternational tickets must not be purchased before the required department head and Finance approvals have been obtained.\n\n## 6. Local Transportation\n\nReasonable expenses for taxis, app-based transportation, airport transfers, and public transportation used for approved business travel are reimbursable.\nReceipts are required for individual transportation expenses above ₹500.\n\n## 7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned"
+      },
+      {
+        "chunk_id": "employee_handbook_4",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.492725048937775,
+        "text": "services. \n \n5. Company Equipment \nCompany-issued laptops and other equipment remain company property. Employees must \ntake reasonable care of company equipment and must report lost or stolen equipment to \nthe appropriate IT or security team. Equipment purchases and reimbursements are \ngoverned by the applicable Procurement and Business Expense policies. \n6. Business Expenses \nEmployees may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the"
+      }
+    ],
+    "generated_answer": "Department-head approval is required for equipment purchases above ₹15,000.",
+    "retrieval_latency_ms": 43.14979399987351,
+    "generation_latency_ms": 3628.930894000405,
+    "total_latency_ms": 3672.0927030000894,
+    "input_tokens": 473,
+    "output_tokens": 17,
+    "total_tokens": 490
+  },
+  {
+    "id": "q09",
+    "question": "What is the minimum required length for a company password?",
+    "answerable": true,
+    "relevant_chunks": [
+      "it_security_0"
+    ],
+    "gold_answer": "Company passwords must contain at least 12 characters.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "it_security_0",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.6188155669897024,
+        "text": "# Dunder Mifflin Paper Company\n# IT Security Policy\n\n## 1. Passwords\n\nEmployees must use a unique password for their company account. Employees must not share passwords with colleagues, managers, vendors,\nsupport personnel, or any other person.\n\nCompany passwords must contain at least 12 characters and should use a combination of letters, numbers, and symbols.\n\n## 2. Multi-Factor Authentication\n\nMulti-factor authentication (MFA) is required for company email, VPN access, and other systems"
+      },
+      {
+        "chunk_id": "it_security_1",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.4613440165283853,
+        "text": "Authentication\n\nMulti-factor authentication (MFA) is required for company email, VPN access, and other systems designated by the IT department.\n\nEmployees must never approve an MFA request they did not initiate. Unexpected MFA requests should be reported to IT Security.\n\n## 3. Company Devices\n\nCompany laptops must use the security software and disk encryption configured\nby IT. Employees must not disable endpoint protection without written approval from\nIT Security.\n\n## 4. Lost or Stolen"
+      },
+      {
+        "chunk_id": "it_security_2",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.3916693862181806,
+        "text": "must not disable endpoint protection without written approval from\nIT Security.\n\n## 4. Lost or Stolen Devices\n\nLost or stolen company devices must be reported to IT Security within\n4 hours of discovery.\nEmployees should also notify their manager when a company device is lost or\nstolen.\n\n## 5. Data Handling\n\nConfidential company information must only be stored in approved company\nsystems.\nEmployees must not upload confidential documents to personal cloud-storage\naccounts, personal email"
+      },
+      {
+        "chunk_id": "remote_work_2",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.38530185180536325,
+        "text": "manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides eligible remote employees with a laptop and required\nsecurity software.\nEmployees are responsible for maintaining a suitable workspace and reliable\ninternet connection.\n5. Security\nCompany data must only be accessed through approved company devices and\nservices.\nEmployees must not store confidential company information on personal\ncloud-storage accounts.\nEmployees working remotely must use the"
+      },
+      {
+        "chunk_id": "it_security_3",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.37254539778657914,
+        "text": "company\nsystems.\nEmployees must not upload confidential documents to personal cloud-storage\naccounts, personal email accounts, or unapproved AI tools.\n\n## 6. Phishing\n\nSuspicious emails should be reported using the company's phishing-reporting\nbutton.\nEmployees should not click links or open attachments in messages they suspect\nmay be malicious.\n\n## 7. Remote Access\n\nEmployees accessing internal systems from outside the office must use the\ncompany-approved VPN where VPN access is required.\nVPN"
+      }
+    ],
+    "generated_answer": "The minimum required length for a company password is 12 characters.",
+    "retrieval_latency_ms": 6.731039000442252,
+    "generation_latency_ms": 3342.5314579999394,
+    "total_latency_ms": 3349.2730059997484,
+    "input_tokens": 473,
+    "output_tokens": 14,
+    "total_tokens": 487
+  },
+  {
+    "id": "q10",
+    "question": "What should an employee do if they receive an unexpected MFA request?",
+    "answerable": true,
+    "relevant_chunks": [
+      "it_security_1"
+    ],
+    "gold_answer": "Employees should not approve unexpected MFA requests and should report them to IT Security.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "it_security_1",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.6269973275230696,
+        "text": "Authentication\n\nMulti-factor authentication (MFA) is required for company email, VPN access, and other systems designated by the IT department.\n\nEmployees must never approve an MFA request they did not initiate. Unexpected MFA requests should be reported to IT Security.\n\n## 3. Company Devices\n\nCompany laptops must use the security software and disk encryption configured\nby IT. Employees must not disable endpoint protection without written approval from\nIT Security.\n\n## 4. Lost or Stolen"
+      },
+      {
+        "chunk_id": "it_security_0",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.41459676339875756,
+        "text": "# Dunder Mifflin Paper Company\n# IT Security Policy\n\n## 1. Passwords\n\nEmployees must use a unique password for their company account. Employees must not share passwords with colleagues, managers, vendors,\nsupport personnel, or any other person.\n\nCompany passwords must contain at least 12 characters and should use a combination of letters, numbers, and symbols.\n\n## 2. Multi-Factor Authentication\n\nMulti-factor authentication (MFA) is required for company email, VPN access, and other systems"
+      },
+      {
+        "chunk_id": "travel_policy_5",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.36002201874058604,
+        "text": "were not approved in advance may be rejected unless the employee can demonstrate that the expense was necessary and urgent."
+      },
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.35669414116457115,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "procurement_4",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.2955540445979055,
+        "text": "confidential customer, employee, financial, or\npricing information to a vendor unless the vendor has been authorized to\nreceive that information.\n\n## 7. Purchase Approval\n\nApproval must be obtained before committing the company to a purchase.\n\nAn employee should not assume that submitting a purchase request means the purchase has been approved.\n\n## 8. Urgent Purchases\n\nUrgent purchases may follow an expedited approval process when delaying the purchase would materially affect business"
+      }
+    ],
+    "generated_answer": "The employee should report the unexpected MFA request to IT Security.",
+    "retrieval_latency_ms": 7.137210000109917,
+    "generation_latency_ms": 3014.40547600032,
+    "total_latency_ms": 3021.55376599967,
+    "input_tokens": 411,
+    "output_tokens": 13,
+    "total_tokens": 424
+  },
+  {
+    "id": "q11",
+    "question": "How many days per week can eligible employees work remotely?",
+    "answerable": true,
+    "relevant_chunks": [
+      "remote_work_0"
+    ],
+    "gold_answer": "Eligible employees may work remotely for up to 2 days per week after completing their probation period, subject to manager approval and business requirements.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.6469510900092597,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      },
+      {
+        "chunk_id": "employee_handbook_1",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.6221347119906394,
+        "text": "detailed rule, the specific policy takes precedence. \n2. Working Hours \nStandard office hours are 9:00 AM to 6:00 PM, Monday through Friday, with a one-hour \nlunch break. Some teams may operate different schedules because of customer \nrequirements, business operations, or manager-approved flexible arrangements. Employees \nworking remotely must remain available during the company's core working hours specified \nin the Remote Work Policy. \n3. Probation \nNew employees normally complete a"
+      },
+      {
+        "chunk_id": "employee_handbook_2",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5479739900558389,
+        "text": "working hours specified \nin the Remote Work Policy. \n3. Probation \nNew employees normally complete a six-month probation period.  During probation, \nemployees are expected to complete required onboarding, training, and compliance \nactivities. \nRemote-work eligibility normally begins after the probation period unless an exception has \nbeen approved by the employee's manager. \n4. Confidential Information \nCustomer information, pricing information, internal financial information, employee records,"
+      },
+      {
+        "chunk_id": "remote_work_1",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.42678904934004547,
+        "text": "to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager approval,\nprovided they complete their required working hours.\n3. Office Attendance\nEmployees may be required to attend the office for team meetings,\ncollaboration sessions, training, or other business needs.\nWhen an employee is asked to attend the office on a scheduled remote-work day,\nthe manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides"
+      },
+      {
+        "chunk_id": "remote_work_2",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.35698209187182817,
+        "text": "manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides eligible remote employees with a laptop and required\nsecurity software.\nEmployees are responsible for maintaining a suitable workspace and reliable\ninternet connection.\n5. Security\nCompany data must only be accessed through approved company devices and\nservices.\nEmployees must not store confidential company information on personal\ncloud-storage accounts.\nEmployees working remotely must use the"
+      }
+    ],
+    "generated_answer": "Eligible employees can work remotely for up to 2 days per week.",
+    "retrieval_latency_ms": 7.454565999978513,
+    "generation_latency_ms": 3493.5803159996794,
+    "total_latency_ms": 3501.0477149999133,
+    "input_tokens": 482,
+    "output_tokens": 16,
+    "total_tokens": 498
+  },
+  {
+    "id": "q12",
+    "question": "What are the core working hours for employees working remotely?",
+    "answerable": true,
+    "relevant_chunks": [
+      "remote_work_0",
+      "remote_work_1"
+    ],
+    "gold_answer": "Remote employees must remain available from 10:00 AM to 5:00 PM, Monday through Friday.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "employee_handbook_1",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.7509002084736802,
+        "text": "detailed rule, the specific policy takes precedence. \n2. Working Hours \nStandard office hours are 9:00 AM to 6:00 PM, Monday through Friday, with a one-hour \nlunch break. Some teams may operate different schedules because of customer \nrequirements, business operations, or manager-approved flexible arrangements. Employees \nworking remotely must remain available during the company's core working hours specified \nin the Remote Work Policy. \n3. Probation \nNew employees normally complete a"
+      },
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.6197829910504653,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      },
+      {
+        "chunk_id": "employee_handbook_2",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5746942668211754,
+        "text": "working hours specified \nin the Remote Work Policy. \n3. Probation \nNew employees normally complete a six-month probation period.  During probation, \nemployees are expected to complete required onboarding, training, and compliance \nactivities. \nRemote-work eligibility normally begins after the probation period unless an exception has \nbeen approved by the employee's manager. \n4. Confidential Information \nCustomer information, pricing information, internal financial information, employee records,"
+      },
+      {
+        "chunk_id": "remote_work_1",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.49900383280574656,
+        "text": "to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager approval,\nprovided they complete their required working hours.\n3. Office Attendance\nEmployees may be required to attend the office for team meetings,\ncollaboration sessions, training, or other business needs.\nWhen an employee is asked to attend the office on a scheduled remote-work day,\nthe manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides"
+      },
+      {
+        "chunk_id": "remote_work_2",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.4075696015130267,
+        "text": "manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides eligible remote employees with a laptop and required\nsecurity software.\nEmployees are responsible for maintaining a suitable workspace and reliable\ninternet connection.\n5. Security\nCompany data must only be accessed through approved company devices and\nservices.\nEmployees must not store confidential company information on personal\ncloud-storage accounts.\nEmployees working remotely must use the"
+      }
+    ],
+    "generated_answer": "The core working hours for employees working remotely are 10:00 AM to 5:00 PM, Monday through Friday.",
+    "retrieval_latency_ms": 7.077045999722031,
+    "generation_latency_ms": 4329.895355999724,
+    "total_latency_ms": 4336.984897000548,
+    "input_tokens": 482,
+    "output_tokens": 28,
+    "total_tokens": 510
+  },
+  {
+    "id": "q13",
+    "question": "Who must approve international business travel?",
+    "answerable": true,
+    "relevant_chunks": [
+      "travel_policy_0"
+    ],
+    "gold_answer": "International business travel requires approval from the employee's reporting manager, department head, and the Finance team before booking.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "travel_policy_0",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.6392342671567521,
+        "text": "# Dunder Mifflin Paper Company\n# Business Travel Policy\n\n## 1. Travel Approval\n\nEmployees travelling for approved business purposes may claim reimbursement for eligible travel expenses.\nBusiness travel must be approved by the employee's reporting manager before booking.\nInternational business travel additionally requires approval from the employee's department head and the Finance team.\n\n## 2. Domestic Air Travel\n\nFor domestic business trips, employees may book economy-class air travel.\nFlights"
+      },
+      {
+        "chunk_id": "employee_handbook_6",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5585300618409813,
+        "text": "business purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees should use the company's approved booking process whenever available.  \n8. Employee Conduct \nEmployees are expected to treat colleagues, customers, vendors, and visitors professionally \nand respectfully. Company systems and equipment must be used primarily for legitimate \nbusiness purposes and in accordance with company policies.  \n9. Policy Precedence \nThis handbook provides general"
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5569453781882352,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      },
+      {
+        "chunk_id": "travel_policy_3",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.46432423546580764,
+        "text": "eight hours. \nInternational tickets must not be purchased before the required department head and Finance approvals have been obtained.\n\n## 6. Local Transportation\n\nReasonable expenses for taxis, app-based transportation, airport transfers, and public transportation used for approved business travel are reimbursable.\nReceipts are required for individual transportation expenses above ₹500.\n\n## 7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned"
+      },
+      {
+        "chunk_id": "travel_policy_2",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.45326456164741674,
+        "text": "reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to ₹4,000 per night for travel to other cities.\n\nEmployees should use company-approved hotels or booking channels when available.\n\n## 5. International Travel\n\nEmployees travelling internationally may book economy-class air travel. Premium economy may be approved for journeys longer than eight hours. \nInternational tickets must not be purchased before the required department head and Finance"
+      }
+    ],
+    "generated_answer": "The employee's department head and the Finance team must approve international business travel.",
+    "retrieval_latency_ms": 7.061207000333525,
+    "generation_latency_ms": 3134.509831000287,
+    "total_latency_ms": 3141.582131999712,
+    "input_tokens": 448,
+    "output_tokens": 15,
+    "total_tokens": 463
+  },
+  {
+    "id": "q14",
+    "question": "What class of air travel can employees book for domestic business trips?",
+    "answerable": true,
+    "relevant_chunks": [
+      "travel_policy_1"
+    ],
+    "gold_answer": "Employees may book economy-class air travel for domestic business trips.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "travel_policy_1",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.6911676198813049,
+        "text": "Domestic Air Travel\n\nFor domestic business trips, employees may book economy-class air travel.\nFlights should normally be booked at least seven days before departure when\npractical.\n\n## 3. Domestic Rail Travel\n\nEmployees travelling domestically by rail may book AC chair car or executive-class rail travel when appropriate for the trip.\n\n## 4. Hotel Accommodation\n\nHotel accommodation is reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to"
+      },
+      {
+        "chunk_id": "employee_handbook_6",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.555577809038485,
+        "text": "business purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees should use the company's approved booking process whenever available.  \n8. Employee Conduct \nEmployees are expected to treat colleagues, customers, vendors, and visitors professionally \nand respectfully. Company systems and equipment must be used primarily for legitimate \nbusiness purposes and in accordance with company policies.  \n9. Policy Precedence \nThis handbook provides general"
+      },
+      {
+        "chunk_id": "travel_policy_0",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.5402229271985501,
+        "text": "# Dunder Mifflin Paper Company\n# Business Travel Policy\n\n## 1. Travel Approval\n\nEmployees travelling for approved business purposes may claim reimbursement for eligible travel expenses.\nBusiness travel must be approved by the employee's reporting manager before booking.\nInternational business travel additionally requires approval from the employee's department head and the Finance team.\n\n## 2. Domestic Air Travel\n\nFor domestic business trips, employees may book economy-class air travel.\nFlights"
+      },
+      {
+        "chunk_id": "travel_policy_2",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.47519236575472373,
+        "text": "reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to ₹4,000 per night for travel to other cities.\n\nEmployees should use company-approved hotels or booking channels when available.\n\n## 5. International Travel\n\nEmployees travelling internationally may book economy-class air travel. Premium economy may be approved for journeys longer than eight hours. \nInternational tickets must not be purchased before the required department head and Finance"
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.4021658984287708,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      }
+    ],
+    "generated_answer": "Employees can book economy-class air travel for domestic business trips.",
+    "retrieval_latency_ms": 6.9031820003147,
+    "generation_latency_ms": 3126.9507120005073,
+    "total_latency_ms": 3133.8650679999773,
+    "input_tokens": 462,
+    "output_tokens": 12,
+    "total_tokens": 474
+  },
+  {
+    "id": "q15",
+    "question": "What system should employees use to purchase standard office supplies?",
+    "answerable": true,
+    "relevant_chunks": [
+      "procurement_0",
+      "procurement_1"
+    ],
+    "gold_answer": "Employees should use the company's approved procurement system, with routine office supplies requested through the office procurement system.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "procurement_1",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.7553930716250015,
+        "text": "Supplies\n\nRoutine office supplies such as paper, pens, folders, printer supplies, and other standard stationery should be requested through the office procurement system.\n\nEmployees should contact the office administrator when a standard supply is not available through the normal ordering process.\n\n## 3. Equipment Purchases\n\nEquipment required for an employee's work may be requested through the\nprocurement system.\n\nEquipment purchases above ₹15,000 require department-head approval before the"
+      },
+      {
+        "chunk_id": "procurement_0",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.6559939645232169,
+        "text": "# Dunder Mifflin Paper Company\n# Procurement Policy\n\n## 1. Standard Purchases\n\nEmployees should use the company's approved procurement system when\npurchasing office supplies, equipment, software, or other goods for business use.\n\nEmployees should not use personal funds for recurring business purchases\nunless the purchase has been approved under the applicable expense process.\n\n## 2. Office Supplies\n\nRoutine office supplies such as paper, pens, folders, printer supplies, and other standard"
+      },
+      {
+        "chunk_id": "procurement_2",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.5356414035919875,
+        "text": "the\nprocurement system.\n\nEquipment purchases above ₹15,000 require department-head approval before the purchase is made.\n\nEquipment purchases of ₹15,000 or less require manager approval.\n\n## 4. Software Purchases\n\nSoftware required for an employee's work must be approved by the employee's manager and the IT department before purchase.\n\nEmployees must not purchase software using a personal account when the\nsoftware will be used to store or process company information.\n\n## 5. Vendor"
+      },
+      {
+        "chunk_id": "employee_handbook_4",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5075432233054948,
+        "text": "services. \n \n5. Company Equipment \nCompany-issued laptops and other equipment remain company property. Employees must \ntake reasonable care of company equipment and must report lost or stolen equipment to \nthe appropriate IT or security team. Equipment purchases and reimbursements are \ngoverned by the applicable Procurement and Business Expense policies. \n6. Business Expenses \nEmployees may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the"
+      },
+      {
+        "chunk_id": "procurement_3",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.4074044280226747,
+        "text": "personal account when the\nsoftware will be used to store or process company information.\n\n## 5. Vendor Selection\n\nFor purchases involving a new vendor, Procurement may request quotations or additional vendor information before approving the purchase.\n\nEmployees must disclose any potential conflict of interest involving a\nvendor.\n\n## 6. Confidential Information\n\nEmployees must not provide confidential customer, employee, financial, or\npricing information to a vendor unless the vendor has been"
+      }
+    ],
+    "generated_answer": "Employees should use the company's approved procurement system to purchase standard office supplies.",
+    "retrieval_latency_ms": 6.947317999220104,
+    "generation_latency_ms": 3358.162344000448,
+    "total_latency_ms": 3365.121753000494,
+    "input_tokens": 468,
+    "output_tokens": 15,
+    "total_tokens": 483
+  },
+  {
+    "id": "q16",
+    "question": "Can employees use personal funds for recurring business purchases?",
+    "answerable": true,
+    "relevant_chunks": [
+      "procurement_0"
+    ],
+    "gold_answer": "Employees should not use personal funds for recurring business purchases unless the purchase has been approved under the applicable expense process.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "procurement_0",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.4877943974982789,
+        "text": "# Dunder Mifflin Paper Company\n# Procurement Policy\n\n## 1. Standard Purchases\n\nEmployees should use the company's approved procurement system when\npurchasing office supplies, equipment, software, or other goods for business use.\n\nEmployees should not use personal funds for recurring business purchases\nunless the purchase has been approved under the applicable expense process.\n\n## 2. Office Supplies\n\nRoutine office supplies such as paper, pens, folders, printer supplies, and other standard"
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.47002932011863546,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      },
+      {
+        "chunk_id": "employee_handbook_6",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.43056024728604253,
+        "text": "business purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees should use the company's approved booking process whenever available.  \n8. Employee Conduct \nEmployees are expected to treat colleagues, customers, vendors, and visitors professionally \nand respectfully. Company systems and equipment must be used primarily for legitimate \nbusiness purposes and in accordance with company policies.  \n9. Policy Precedence \nThis handbook provides general"
+      },
+      {
+        "chunk_id": "employee_handbook_4",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.3982662161722006,
+        "text": "services. \n \n5. Company Equipment \nCompany-issued laptops and other equipment remain company property. Employees must \ntake reasonable care of company equipment and must report lost or stolen equipment to \nthe appropriate IT or security team. Equipment purchases and reimbursements are \ngoverned by the applicable Procurement and Business Expense policies. \n6. Business Expenses \nEmployees may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the"
+      },
+      {
+        "chunk_id": "expense_policy_0",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.38823865848575145,
+        "text": "Dunder Mifflin — Business Expense Policy\nDunder Mifflin Paper Company\nBusiness Expense Policy\n1. General Rules\nBusiness expenses must be reasonable, necessary, and related to legitimate\ncompany activities.\nEmployees should obtain the required approval before making unusual or\nhigh-value business purchases.\n2. Business Meals\nEmployees travelling for business may claim reasonable meal expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic"
+      }
+    ],
+    "generated_answer": "No, employees should not use personal funds for recurring business purchases unless the purchase has been approved under the applicable expense process.",
+    "retrieval_latency_ms": 7.250843999827339,
+    "generation_latency_ms": 3853.161967000233,
+    "total_latency_ms": 3860.424411999702,
+    "input_tokens": 456,
+    "output_tokens": 24,
+    "total_tokens": 480
+  },
+  {
+    "id": "q17",
+    "question": "What are Dunder Mifflin's standard office hours?",
+    "answerable": true,
+    "relevant_chunks": [
+      "employee_handbook_1"
+    ],
+    "gold_answer": "Standard office hours are 9:00 AM to 6:00 PM, Monday through Friday, with a one-hour lunch break.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "employee_handbook_0",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.6963352049905813,
+        "text": "Dunder Mifflin Paper Company \nEmployee Handbook \n1. About Dunder Mifflin \nDunder Mifflin Paper Company is a regional paper and office-supplies company. Employees \nare expected to act professionally, protect company information, follow applicable company \npolicies, and use company resources responsibly. \nThis handbook provides general guidance. Where a specific company policy contains a more \ndetailed rule, the specific policy takes precedence. \n2. Working Hours \nStandard office hours are 9:00"
+      },
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.5769513738943007,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.5724217262976387,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.5246265134027192,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "leave_policy_2",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.5113859454426309,
+        "text": "consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the annual company holiday calendar. Public holidays do not reduce an employee's annual leave balance.\n\n## 4. Leave Approval\n\nLeave requests must be submitted through the employee portal. Manager approval is required before planned annual leave is considered\nconfirmed. \nEmployees should not assume that submitting a request automatically means\nthe leave has been approved.\n\n## 5. Parental"
+      }
+    ],
+    "generated_answer": "Dunder Mifflin's standard office hours are 9:00 AM to 5:00 PM, Monday through Friday.",
+    "retrieval_latency_ms": 8.173145000000659,
+    "generation_latency_ms": 4663.912945999982,
+    "total_latency_ms": 4672.098283000196,
+    "input_tokens": 527,
+    "output_tokens": 29,
+    "total_tokens": 556
+  },
+  {
+    "id": "q18",
+    "question": "What is Dunder Mifflin's policy for employees bringing pet llamas into the office?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null,
+    "retrieved_chunks": [
+      {
+        "chunk_id": "employee_handbook_0",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5021171948086237,
+        "text": "Dunder Mifflin Paper Company \nEmployee Handbook \n1. About Dunder Mifflin \nDunder Mifflin Paper Company is a regional paper and office-supplies company. Employees \nare expected to act professionally, protect company information, follow applicable company \npolicies, and use company resources responsibly. \nThis handbook provides general guidance. Where a specific company policy contains a more \ndetailed rule, the specific policy takes precedence. \n2. Working Hours \nStandard office hours are 9:00"
+      },
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.4627970849371793,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.4573915233250656,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      },
+      {
+        "chunk_id": "expense_policy_0",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.45476504566940346,
+        "text": "Dunder Mifflin — Business Expense Policy\nDunder Mifflin Paper Company\nBusiness Expense Policy\n1. General Rules\nBusiness expenses must be reasonable, necessary, and related to legitimate\ncompany activities.\nEmployees should obtain the required approval before making unusual or\nhigh-value business purchases.\n2. Business Meals\nEmployees travelling for business may claim reasonable meal expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic"
+      },
+      {
+        "chunk_id": "it_security_0",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.4528975971552499,
+        "text": "# Dunder Mifflin Paper Company\n# IT Security Policy\n\n## 1. Passwords\n\nEmployees must use a unique password for their company account. Employees must not share passwords with colleagues, managers, vendors,\nsupport personnel, or any other person.\n\nCompany passwords must contain at least 12 characters and should use a combination of letters, numbers, and symbols.\n\n## 2. Multi-Factor Authentication\n\nMulti-factor authentication (MFA) is required for company email, VPN access, and other systems"
+      }
+    ],
+    "generated_answer": "I don't have enough information in the provided company policies to answer that.",
+    "retrieval_latency_ms": 7.553509999524977,
+    "generation_latency_ms": 3577.900309999677,
+    "total_latency_ms": 3585.4645859999437,
+    "input_tokens": 525,
+    "output_tokens": 15,
+    "total_tokens": 540
+  },
+  {
+    "id": "q19",
+    "question": "How many paid vacation days does Dunder Mifflin give employees after ten years of service?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null,
+    "retrieved_chunks": [
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6798396901719743,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "leave_policy_1",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6396541425402298,
+        "text": "following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.\nA medical certificate may be requested when an employee is absent for more than 3 consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the"
+      },
+      {
+        "chunk_id": "leave_policy_2",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6054553799986977,
+        "text": "consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the annual company holiday calendar. Public holidays do not reduce an employee's annual leave balance.\n\n## 4. Leave Approval\n\nLeave requests must be submitted through the employee portal. Manager approval is required before planned annual leave is considered\nconfirmed. \nEmployees should not assume that submitting a request automatically means\nthe leave has been approved.\n\n## 5. Parental"
+      },
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.5801524398874824,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.5646504938298125,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      }
+    ],
+    "generated_answer": "I don't have enough information in the provided company policies to answer that.",
+    "retrieval_latency_ms": 7.2629930000402965,
+    "generation_latency_ms": 3374.5653420000963,
+    "total_latency_ms": 3381.8389930002013,
+    "input_tokens": 509,
+    "output_tokens": 15,
+    "total_tokens": 524
+  },
+  {
+    "id": "q20",
+    "question": "What is the company's policy on employees receiving bonuses for exceeding their sales targets?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null,
+    "retrieved_chunks": [
+      {
+        "chunk_id": "employee_handbook_7",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.2762180312998733,
+        "text": "purposes and in accordance with company policies.  \n9. Policy Precedence \nThis handbook provides general guidance and does not replace detailed departmental \npolicies. For questions involving leave, travel, expenses, remote work, IT security, benefits, or \nprocurement, employees should consult the relevant policy."
+      },
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.2704723075317611,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      },
+      {
+        "chunk_id": "it_security_3",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.25929548149396753,
+        "text": "company\nsystems.\nEmployees must not upload confidential documents to personal cloud-storage\naccounts, personal email accounts, or unapproved AI tools.\n\n## 6. Phishing\n\nSuspicious emails should be reported using the company's phishing-reporting\nbutton.\nEmployees should not click links or open attachments in messages they suspect\nmay be malicious.\n\n## 7. Remote Access\n\nEmployees accessing internal systems from outside the office must use the\ncompany-approved VPN where VPN access is required.\nVPN"
+      },
+      {
+        "chunk_id": "employee_handbook_6",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.25791497795508833,
+        "text": "business purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees should use the company's approved booking process whenever available.  \n8. Employee Conduct \nEmployees are expected to treat colleagues, customers, vendors, and visitors professionally \nand respectfully. Company systems and equipment must be used primarily for legitimate \nbusiness purposes and in accordance with company policies.  \n9. Policy Precedence \nThis handbook provides general"
+      },
+      {
+        "chunk_id": "procurement_0",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.2535923007209627,
+        "text": "# Dunder Mifflin Paper Company\n# Procurement Policy\n\n## 1. Standard Purchases\n\nEmployees should use the company's approved procurement system when\npurchasing office supplies, equipment, software, or other goods for business use.\n\nEmployees should not use personal funds for recurring business purchases\nunless the purchase has been approved under the applicable expense process.\n\n## 2. Office Supplies\n\nRoutine office supplies such as paper, pens, folders, printer supplies, and other standard"
+      }
+    ],
+    "generated_answer": "I don't have enough information in the provided company policies to answer that.",
+    "retrieval_latency_ms": 7.225826999274432,
+    "generation_latency_ms": 3199.5034279998436,
+    "total_latency_ms": 3206.7404250001346,
+    "input_tokens": 444,
+    "output_tokens": 15,
+    "total_tokens": 459
+  },
+  {
+    "id": "q21",
+    "question": "What is the maximum annual reimbursement available for job-related courses or certifications?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_1",
+      "benefits_2"
+    ],
+    "gold_answer": "Employees may request reimbursement of up to ₹20,000 per calendar year for approved job-related courses, certifications, or conferences. The employee's manager must approve the request before the course or event is purchased.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.4929269648800798,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.4665173016494946,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "travel_policy_2",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.41041443878188216,
+        "text": "reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to ₹4,000 per night for travel to other cities.\n\nEmployees should use company-approved hotels or booking channels when available.\n\n## 5. International Travel\n\nEmployees travelling internationally may book economy-class air travel. Premium economy may be approved for journeys longer than eight hours. \nInternational tickets must not be purchased before the required department head and Finance"
+      },
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.3367997305441086,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      },
+      {
+        "chunk_id": "expense_policy_2",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.3007164895878107,
+        "text": "by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are not reimbursable.\n5. Receipts\nReceipts are required for expenses of\n₹500 or more\n.\nIf a receipt cannot be obtained, the employee must provide a written\nexplanation when submitting the expense claim.\n6. Expense Submission\nExpense claims should normally be submitted within\n15 calendar days\nof the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7."
+      }
+    ],
+    "generated_answer": "The maximum annual reimbursement available for job-related courses or certifications is ₹20,000.",
+    "retrieval_latency_ms": 7.931279000331415,
+    "generation_latency_ms": 3730.5095749998145,
+    "total_latency_ms": 3738.452038000105,
+    "input_tokens": 503,
+    "output_tokens": 20,
+    "total_tokens": 523
+  },
+  {
+    "id": "q22",
+    "question": "Who should employees contact about questions concerning health insurance and retirement benefits?",
+    "answerable": true,
+    "relevant_chunks": [
+      "benefits_4"
+    ],
+    "gold_answer": "Questions about health insurance, retirement savings, or benefits enrollment should be directed to the People Operations team.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "benefits_4",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.7066616777286392,
+        "text": "6. Benefits Questions \nQuestions about health insurance, retirement savings, or benefits enrollment should be \ndirected to the People Operations team. Questions about learning and development \nreimbursement should first be discussed with the employee's manager."
+      },
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.3604907374957027,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      },
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.3492084922463713,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      },
+      {
+        "chunk_id": "benefits_3",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.34739009543646426,
+        "text": "external \nprovider. Employees may contact the provider directly without manager approval. \nThe service may provide support relating to personal, financial, or workplace concerns. \n5. Cafeteria Benefit \nEmployees working from a Dunder Mifflin office may use the subsidized cafeteria benefit \nwhere a company cafeteria is available. \nThe cafeteria benefit is not available as a cash alternative. \n6. Benefits Questions \nQuestions about health insurance, retirement savings, or benefits enrollment"
+      },
+      {
+        "chunk_id": "employee_handbook_7",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.32886418344296653,
+        "text": "purposes and in accordance with company policies.  \n9. Policy Precedence \nThis handbook provides general guidance and does not replace detailed departmental \npolicies. For questions involving leave, travel, expenses, remote work, IT security, benefits, or \nprocurement, employees should consult the relevant policy."
+      }
+    ],
+    "generated_answer": "Employees should contact the People Operations team for questions concerning health insurance and retirement benefits.",
+    "retrieval_latency_ms": 6.969727000068815,
+    "generation_latency_ms": 3179.4696260003548,
+    "total_latency_ms": 3186.4504329996635,
+    "input_tokens": 403,
+    "output_tokens": 16,
+    "total_tokens": 419
+  },
+  {
+    "id": "q23",
+    "question": "How long do employees normally have to submit an expense claim?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_2"
+    ],
+    "gold_answer": "Expense claims should normally be submitted within 15 calendar days of the expense being incurred.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "expense_policy_2",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.6291582152019766,
+        "text": "by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are not reimbursable.\n5. Receipts\nReceipts are required for expenses of\n₹500 or more\n.\nIf a receipt cannot be obtained, the employee must provide a written\nexplanation when submitting the expense claim.\n6. Expense Submission\nExpense claims should normally be submitted within\n15 calendar days\nof the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7."
+      },
+      {
+        "chunk_id": "travel_policy_4",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.4975613762495207,
+        "text": "7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned departure date.\n\nTravel advances must be settled within 10 business days after returning from\nthe trip.\n\n## 8. Travel Reimbursement\n\nTravel reimbursement claims should normally be submitted through the expense system within 15 calendar days after returning from a business trip.\nExpenses that were not approved in advance may be rejected unless the employee can demonstrate that the expense was"
+      },
+      {
+        "chunk_id": "expense_policy_3",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.49742710572178866,
+        "text": "the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7. Exceptions\nExceptions to this policy require written approval from the Finance team.\nApproval should be obtained before the expense is incurred whenever practical."
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.41526983777060233,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.4114526584590634,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      }
+    ],
+    "generated_answer": "Employees normally have 15 calendar days to submit an expense claim.",
+    "retrieval_latency_ms": 6.8543550005415455,
+    "generation_latency_ms": 3117.9667650003466,
+    "total_latency_ms": 3124.833021000086,
+    "input_tokens": 432,
+    "output_tokens": 14,
+    "total_tokens": 446
+  },
+  {
+    "id": "q24",
+    "question": "At what expense amount are receipts required?",
+    "answerable": true,
+    "relevant_chunks": [
+      "expense_policy_2"
+    ],
+    "gold_answer": "Receipts are required for expenses of ₹500 or more.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "expense_policy_2",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.6761656703562821,
+        "text": "by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are not reimbursable.\n5. Receipts\nReceipts are required for expenses of\n₹500 or more\n.\nIf a receipt cannot be obtained, the employee must provide a written\nexplanation when submitting the expense claim.\n6. Expense Submission\nExpense claims should normally be submitted within\n15 calendar days\nof the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7."
+      },
+      {
+        "chunk_id": "expense_policy_3",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.5770150912494806,
+        "text": "the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7. Exceptions\nExceptions to this policy require written approval from the Finance team.\nApproval should be obtained before the expense is incurred whenever practical."
+      },
+      {
+        "chunk_id": "employee_handbook_5",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.5576408519817403,
+        "text": "may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the Business Expense Policy. Employees should obtain required \napproval before making unusual or high-value purchases. Receipts and supporting \ndocumentation must be provided where required. \n7. Business Travel \nBusiness travel must be approved before booking. Employees travelling for approved \nbusiness purposes may claim eligible travel expenses according to the Business Travel Policy. \nEmployees"
+      },
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.5277833853086246,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "expense_policy_0",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.5158964971339464,
+        "text": "Dunder Mifflin — Business Expense Policy\nDunder Mifflin Paper Company\nBusiness Expense Policy\n1. General Rules\nBusiness expenses must be reasonable, necessary, and related to legitimate\ncompany activities.\nEmployees should obtain the required approval before making unusual or\nhigh-value business purchases.\n2. Business Meals\nEmployees travelling for business may claim reasonable meal expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic"
+      }
+    ],
+    "generated_answer": "Receipts are required for expenses of ₹500 or more.",
+    "retrieval_latency_ms": 7.544139999481558,
+    "generation_latency_ms": 3130.9211070001766,
+    "total_latency_ms": 3138.4776089998923,
+    "input_tokens": 429,
+    "output_tokens": 14,
+    "total_tokens": 443
+  },
+  {
+    "id": "q25",
+    "question": "How quickly must a lost company device be reported to IT Security?",
+    "answerable": true,
+    "relevant_chunks": [
+      "it_security_2"
+    ],
+    "gold_answer": "Lost or stolen company devices must be reported to IT Security within 4 hours of discovery. Employees should also notify their manager.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "it_security_2",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.6354101707215476,
+        "text": "must not disable endpoint protection without written approval from\nIT Security.\n\n## 4. Lost or Stolen Devices\n\nLost or stolen company devices must be reported to IT Security within\n4 hours of discovery.\nEmployees should also notify their manager when a company device is lost or\nstolen.\n\n## 5. Data Handling\n\nConfidential company information must only be stored in approved company\nsystems.\nEmployees must not upload confidential documents to personal cloud-storage\naccounts, personal email"
+      },
+      {
+        "chunk_id": "employee_handbook_4",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.40621276698683495,
+        "text": "services. \n \n5. Company Equipment \nCompany-issued laptops and other equipment remain company property. Employees must \ntake reasonable care of company equipment and must report lost or stolen equipment to \nthe appropriate IT or security team. Equipment purchases and reimbursements are \ngoverned by the applicable Procurement and Business Expense policies. \n6. Business Expenses \nEmployees may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the"
+      },
+      {
+        "chunk_id": "remote_work_2",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.38775138275291376,
+        "text": "manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides eligible remote employees with a laptop and required\nsecurity software.\nEmployees are responsible for maintaining a suitable workspace and reliable\ninternet connection.\n5. Security\nCompany data must only be accessed through approved company devices and\nservices.\nEmployees must not store confidential company information on personal\ncloud-storage accounts.\nEmployees working remotely must use the"
+      },
+      {
+        "chunk_id": "expense_policy_2",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.3684737349045367,
+        "text": "by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are not reimbursable.\n5. Receipts\nReceipts are required for expenses of\n₹500 or more\n.\nIf a receipt cannot be obtained, the employee must provide a written\nexplanation when submitting the expense claim.\n6. Expense Submission\nExpense claims should normally be submitted within\n15 calendar days\nof the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7."
+      },
+      {
+        "chunk_id": "it_security_1",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.33593009736054624,
+        "text": "Authentication\n\nMulti-factor authentication (MFA) is required for company email, VPN access, and other systems designated by the IT department.\n\nEmployees must never approve an MFA request they did not initiate. Unexpected MFA requests should be reported to IT Security.\n\n## 3. Company Devices\n\nCompany laptops must use the security software and disk encryption configured\nby IT. Employees must not disable endpoint protection without written approval from\nIT Security.\n\n## 4. Lost or Stolen"
+      }
+    ],
+    "generated_answer": "A lost company device must be reported to IT Security within 4 hours of discovery.",
+    "retrieval_latency_ms": 8.861811999850033,
+    "generation_latency_ms": 3575.3239519999624,
+    "total_latency_ms": 3584.202617000301,
+    "input_tokens": 461,
+    "output_tokens": 17,
+    "total_tokens": 478
+  },
+  {
+    "id": "q26",
+    "question": "What approval is required for equipment costing ₹15,000 or less?",
+    "answerable": true,
+    "relevant_chunks": [
+      "procurement_2"
+    ],
+    "gold_answer": "Equipment purchases of ₹15,000 or less require manager approval.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "procurement_2",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.6985002511325809,
+        "text": "the\nprocurement system.\n\nEquipment purchases above ₹15,000 require department-head approval before the purchase is made.\n\nEquipment purchases of ₹15,000 or less require manager approval.\n\n## 4. Software Purchases\n\nSoftware required for an employee's work must be approved by the employee's manager and the IT department before purchase.\n\nEmployees must not purchase software using a personal account when the\nsoftware will be used to store or process company information.\n\n## 5. Vendor"
+      },
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.611544679517432,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "procurement_1",
+        "document_id": "procurement",
+        "source": "procurement.md",
+        "score": 0.5550572784210299,
+        "text": "Supplies\n\nRoutine office supplies such as paper, pens, folders, printer supplies, and other standard stationery should be requested through the office procurement system.\n\nEmployees should contact the office administrator when a standard supply is not available through the normal ordering process.\n\n## 3. Equipment Purchases\n\nEquipment required for an employee's work may be requested through the\nprocurement system.\n\nEquipment purchases above ₹15,000 require department-head approval before the"
+      },
+      {
+        "chunk_id": "travel_policy_3",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.5497011644572305,
+        "text": "eight hours. \nInternational tickets must not be purchased before the required department head and Finance approvals have been obtained.\n\n## 6. Local Transportation\n\nReasonable expenses for taxis, app-based transportation, airport transfers, and public transportation used for approved business travel are reimbursable.\nReceipts are required for individual transportation expenses above ₹500.\n\n## 7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned"
+      },
+      {
+        "chunk_id": "expense_policy_3",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.5266919707309365,
+        "text": "the expense being incurred.\nFinance may request additional documentation before approving a claim.\n7. Exceptions\nExceptions to this policy require written approval from the Finance team.\nApproval should be obtained before the expense is incurred whenever practical."
+      }
+    ],
+    "generated_answer": "Manager approval is required for equipment costing ₹15,000 or less.",
+    "retrieval_latency_ms": 8.294058000501536,
+    "generation_latency_ms": 3429.4311110006674,
+    "total_latency_ms": 3437.7393089998804,
+    "input_tokens": 428,
+    "output_tokens": 17,
+    "total_tokens": 445
+  },
+  {
+    "id": "q27",
+    "question": "What equipment does the company provide to eligible remote employees?",
+    "answerable": true,
+    "relevant_chunks": [
+      "remote_work_2"
+    ],
+    "gold_answer": "The company provides eligible remote employees with a laptop and required security software.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "remote_work_2",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.6316997304293475,
+        "text": "manager should provide reasonable advance notice whenever practical.\n4. Equipment\nThe company provides eligible remote employees with a laptop and required\nsecurity software.\nEmployees are responsible for maintaining a suitable workspace and reliable\ninternet connection.\n5. Security\nCompany data must only be accessed through approved company devices and\nservices.\nEmployees must not store confidential company information on personal\ncloud-storage accounts.\nEmployees working remotely must use the"
+      },
+      {
+        "chunk_id": "remote_work_3",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.520372588486758,
+        "text": "confidential company information on personal\ncloud-storage accounts.\nEmployees working remotely must use the company's approved VPN when accessing\ninternal systems that require VPN access."
+      },
+      {
+        "chunk_id": "employee_handbook_4",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.48045630228102587,
+        "text": "services. \n \n5. Company Equipment \nCompany-issued laptops and other equipment remain company property. Employees must \ntake reasonable care of company equipment and must report lost or stolen equipment to \nthe appropriate IT or security team. Equipment purchases and reimbursements are \ngoverned by the applicable Procurement and Business Expense policies. \n6. Business Expenses \nEmployees may be reimbursed for reasonable and necessary business expenses when those \nexpenses comply with the"
+      },
+      {
+        "chunk_id": "it_security_3",
+        "document_id": "it_security",
+        "source": "it_security.md",
+        "score": 0.4617154032687258,
+        "text": "company\nsystems.\nEmployees must not upload confidential documents to personal cloud-storage\naccounts, personal email accounts, or unapproved AI tools.\n\n## 6. Phishing\n\nSuspicious emails should be reported using the company's phishing-reporting\nbutton.\nEmployees should not click links or open attachments in messages they suspect\nmay be malicious.\n\n## 7. Remote Access\n\nEmployees accessing internal systems from outside the office must use the\ncompany-approved VPN where VPN access is required.\nVPN"
+      },
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.45885443790993935,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      }
+    ],
+    "generated_answer": "The company provides eligible remote employees with a laptop and required security software.",
+    "retrieval_latency_ms": 8.877170999767259,
+    "generation_latency_ms": 3121.9595990005473,
+    "total_latency_ms": 3130.8502350002527,
+    "input_tokens": 411,
+    "output_tokens": 14,
+    "total_tokens": 425
+  },
+  {
+    "id": "q28",
+    "question": "How much hotel accommodation can be reimbursed per night in a Tier 1 city?",
+    "answerable": true,
+    "relevant_chunks": [
+      "travel_policy_1",
+      "travel_policy_2"
+    ],
+    "gold_answer": "Hotel accommodation is reimbursable up to ₹6,000 per night for travel to Tier 1 cities.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "travel_policy_2",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.7161990140260555,
+        "text": "reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to ₹4,000 per night for travel to other cities.\n\nEmployees should use company-approved hotels or booking channels when available.\n\n## 5. International Travel\n\nEmployees travelling internationally may book economy-class air travel. Premium economy may be approved for journeys longer than eight hours. \nInternational tickets must not be purchased before the required department head and Finance"
+      },
+      {
+        "chunk_id": "travel_policy_1",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.4417955037111437,
+        "text": "Domestic Air Travel\n\nFor domestic business trips, employees may book economy-class air travel.\nFlights should normally be booked at least seven days before departure when\npractical.\n\n## 3. Domestic Rail Travel\n\nEmployees travelling domestically by rail may book AC chair car or executive-class rail travel when appropriate for the trip.\n\n## 4. Hotel Accommodation\n\nHotel accommodation is reimbursable up to ₹6,000 per night for travel to Tier 1 cities.\n\nHotel accommodation is reimbursable up to"
+      },
+      {
+        "chunk_id": "expense_policy_1",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.4412273106212934,
+        "text": "expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic beverages are not reimbursable.\n3. Equipment\nEmployees may request reimbursement for approved work-related equipment.\nEquipment purchases above\n₹15,000\nrequire department-head\napproval before purchase.\n4. Software\nSoftware subscriptions required for an employee's work must be approved by\nthe employee's manager and the IT department before purchase.\nPersonal software subscriptions are"
+      },
+      {
+        "chunk_id": "travel_policy_3",
+        "document_id": "travel_policy",
+        "source": "travel_policy.md",
+        "score": 0.3470579921486483,
+        "text": "eight hours. \nInternational tickets must not be purchased before the required department head and Finance approvals have been obtained.\n\n## 6. Local Transportation\n\nReasonable expenses for taxis, app-based transportation, airport transfers, and public transportation used for approved business travel are reimbursable.\nReceipts are required for individual transportation expenses above ₹500.\n\n## 7. Travel Advance\n\nEmployees may request a travel advance up to seven calendar days before the planned"
+      },
+      {
+        "chunk_id": "expense_policy_0",
+        "document_id": "expense_policy",
+        "source": "expense_policy.html",
+        "score": 0.3375946496072517,
+        "text": "Dunder Mifflin — Business Expense Policy\nDunder Mifflin Paper Company\nBusiness Expense Policy\n1. General Rules\nBusiness expenses must be reasonable, necessary, and related to legitimate\ncompany activities.\nEmployees should obtain the required approval before making unusual or\nhigh-value business purchases.\n2. Business Meals\nEmployees travelling for business may claim reasonable meal expenses.\nThe maximum reimbursable amount for an individual business meal is\n₹1,500 including taxes\n.\nAlcoholic"
+      }
+    ],
+    "generated_answer": "₹6,000 per night.",
+    "retrieval_latency_ms": 7.9046330001801834,
+    "generation_latency_ms": 3044.3036930000744,
+    "total_latency_ms": 3052.2222769996006,
+    "input_tokens": 498,
+    "output_tokens": 9,
+    "total_tokens": 507
+  },
+  {
+    "id": "q29",
+    "question": "How long is the normal probation period for new employees?",
+    "answerable": true,
+    "relevant_chunks": [
+      "employee_handbook_2"
+    ],
+    "gold_answer": "New employees normally complete a six-month probation period.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "employee_handbook_2",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.6514622616395337,
+        "text": "working hours specified \nin the Remote Work Policy. \n3. Probation \nNew employees normally complete a six-month probation period.  During probation, \nemployees are expected to complete required onboarding, training, and compliance \nactivities. \nRemote-work eligibility normally begins after the probation period unless an exception has \nbeen approved by the employee's manager. \n4. Confidential Information \nCustomer information, pricing information, internal financial information, employee records,"
+      },
+      {
+        "chunk_id": "employee_handbook_1",
+        "document_id": "employee_handbook",
+        "source": "employee_handbook.pdf",
+        "score": 0.4872728425926357,
+        "text": "detailed rule, the specific policy takes precedence. \n2. Working Hours \nStandard office hours are 9:00 AM to 6:00 PM, Monday through Friday, with a one-hour \nlunch break. Some teams may operate different schedules because of customer \nrequirements, business operations, or manager-approved flexible arrangements. Employees \nworking remotely must remain available during the company's core working hours specified \nin the Remote Work Policy. \n3. Probation \nNew employees normally complete a"
+      },
+      {
+        "chunk_id": "remote_work_0",
+        "document_id": "remote_work",
+        "source": "remote_work.html",
+        "score": 0.39863659184488026,
+        "text": "Dunder Mifflin — Remote Work Policy\nDunder Mifflin Paper Company\nRemote Work Policy\n1. Eligibility\nEmployees may work remotely for up to\n2 days per week\nafter\ncompleting their probation period.\nRemote work is subject to manager approval and business requirements.\n2. Working Hours\nEmployees working remotely must remain available during the company's core\nworking hours of\n10:00 AM to 5:00 PM, Monday through Friday\n.\nEmployees may adjust their start and end times with prior manager"
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.3601824476721776,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "leave_policy_1",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.3356751203204134,
+        "text": "following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive 10 days of paid sick leave per calendar year. Sick leave may be taken without advance notice when an employee is unexpectedly ill. Employees should notify their manager as soon as reasonably  possible.\nA medical certificate may be requested when an employee is absent for more than 3 consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the"
+      }
+    ],
+    "generated_answer": "The normal probation period for new employees is six months.",
+    "retrieval_latency_ms": 7.082684000124573,
+    "generation_latency_ms": 3227.454619999662,
+    "total_latency_ms": 3234.5498009999574,
+    "input_tokens": 519,
+    "output_tokens": 11,
+    "total_tokens": 530
+  },
+  {
+    "id": "q30",
+    "question": "How much maternity leave does Dunder Mifflin provide to employees?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null,
+    "retrieved_chunks": [
+      {
+        "chunk_id": "benefits_2",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.6295776556937818,
+        "text": "of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences. \nThe employee's manager must approve the request before the course or event is purchased. \nTraining that is mandatory for the employee's role is handled separately by the relevant \ndepartment. \n4. Employee Assistance \nDunder Mifflin provides confidential employee assistance services through an external \nprovider. Employees may contact the provider directly without manager approval. \nThe service"
+      },
+      {
+        "chunk_id": "leave_policy_0",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.6187550853213931,
+        "text": "# Dunder Mifflin Paper Company\n# Leave Policy\n\n## 1. Annual Leave\n\nEmployees receive 18 days of paid annual leave per calendar year. Annual leave should normally be requested at least five working days before the planned absence. Unused annual leave may be carried forward into the following calendar year, up to a maximum of 5 days.\n\nCarried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31.\n\n## 2. Sick Leave\n\nEmployees receive"
+      },
+      {
+        "chunk_id": "benefits_1",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.6011272619416652,
+        "text": "enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's retirement savings plan through payroll \ndeductions. \nDunder Mifflin matches 50% of the first 6% of eligible employee contributions. \nEmployees may change their contribution percentage through the payroll benefits portal. \n3. Learning and Development \nEmployees may request reimbursement of up to ₹20,000 per calendar year for approved \njob-related courses, certifications, or conferences."
+      },
+      {
+        "chunk_id": "leave_policy_2",
+        "document_id": "leave_policy",
+        "source": "leave_policy.md",
+        "score": 0.5413259130876427,
+        "text": "consecutive working days.\n\n## 3. Public Holidays\n\nDunder Mifflin observes the public holidays listed on the annual company holiday calendar. Public holidays do not reduce an employee's annual leave balance.\n\n## 4. Leave Approval\n\nLeave requests must be submitted through the employee portal. Manager approval is required before planned annual leave is considered\nconfirmed. \nEmployees should not assume that submitting a request automatically means\nthe leave has been approved.\n\n## 5. Parental"
+      },
+      {
+        "chunk_id": "benefits_0",
+        "document_id": "benefits",
+        "source": "benefits.pdf",
+        "score": 0.5283989390177508,
+        "text": "Dunder Mifflin Paper Company \nEmployee Benefits Policy \n1. Health Insurance \nEligible full-time employees may enroll in the company's health insurance plan. New \nemployees may enroll during their initial benefits enrollment window, which remains open \nfor 30 days after their start date. \nEmployees who miss the initial enrollment window may enroll during the company's annual \nbenefits enrollment period, subject to plan rules. \n2. Retirement Savings \nEmployees may contribute to the company's"
+      }
+    ],
+    "generated_answer": "I don't have enough information in the provided company policies to answer that.",
+    "retrieval_latency_ms": 7.133183999940229,
+    "generation_latency_ms": 3540.689913999813,
+    "total_latency_ms": 3547.8367659998185,
+    "input_tokens": 509,
+    "output_tokens": 15,
+    "total_tokens": 524
+  }
+]

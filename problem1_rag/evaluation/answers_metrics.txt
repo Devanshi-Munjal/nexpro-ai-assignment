@@ -1,0 +1,67 @@
+DUNDER MIFFLIN RAG ANSWER EVALUATION
+=========================================
+
+ANSWERABLE QUESTIONS
+-------------------------
+Total: 26
+
+Exact Match (EM):       0.1538 (15.38%)
+Token F1:               0.6878 (68.78%)
+
+UNANSWERABLE QUESTIONS
+-------------------------
+Total: 4
+
+Refusal Accuracy:       1.0000 (100.00%)
+
+NOTE
+-------------------------
+EM requires the normalized generated answer to exactly
+match the normalized gold answer.
+
+Token F1 measures token-level overlap between the generated
+answer and gold answer.
+
+EM/F1 do not fully capture valid paraphrases or semantic
+equivalence, so they are not treated as the sole measure
+of answer quality.
+
+Refusal accuracy measures whether unanswerable questions
+received the expected abstention response.
+
+
+PER-QUESTION SCORES
+====================
+q01: EM=0 F1=0.7857
+q02: EM=1 F1=1.0000
+q03: EM=0 F1=0.7333
+q04: EM=0 F1=0.3571
+q05: EM=0 F1=0.8462
+q06: EM=1 F1=1.0000
+q07: EM=0 F1=0.8000
+q08: EM=0 F1=0.6667
+q09: EM=0 F1=0.3529
+q10: EM=0 F1=0.6087
+q11: EM=0 F1=0.6111
+q12: EM=0 F1=0.6000
+q13: EM=0 F1=0.6667
+q14: EM=0 F1=0.9000
+q15: EM=0 F1=0.6429
+q16: EM=0 F1=0.9744
+q17: EM=0 F1=0.7333
+q21: EM=0 F1=0.4000
+q22: EM=0 F1=0.6000
+q23: EM=0 F1=0.4167
+q24: EM=1 F1=1.0000
+q25: EM=0 F1=0.7222
+q26: EM=0 F1=0.6316
+q27: EM=1 F1=1.0000
+q28: EM=0 F1=0.3333
+q29: EM=0 F1=0.5000
+
+UNANSWERABLE / REFUSAL SCORES
+==============================
+q18: refused=True
+q19: refused=True
+q20: refused=True
+q30: refused=True
