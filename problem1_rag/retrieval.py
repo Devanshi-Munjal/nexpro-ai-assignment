@@ -66,11 +66,19 @@ if __name__ == "__main__":
     try:
         query = input("\nAsk Dunder Mifflin a question: ")
 
+        document_id = input(
+            "Optional document filter (press Enter for none): "
+        ).strip()
+
+        if not document_id:
+            document_id = None
+
         results = search(
             client=client,
             model=model,
             query=query,
             k=TOP_K,
+            document_id=document_id,
         )
 
         print(f"\nTop {len(results)} results:\n")

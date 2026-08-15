@@ -1,0 +1,213 @@
+[
+  {
+    "id": "q01",
+    "question": "How many annual leave days can an employee carry forward?",
+    "answerable": true,
+    "relevant_chunks": ["leave_policy_0"],
+    "gold_answer": "Employees can carry forward up to 5 days of unused annual leave."
+  },
+  {
+    "id": "q02",
+    "question": "How many paid sick leave days do employees receive each year?",
+    "answerable": true,
+    "relevant_chunks": ["leave_policy_1"],
+    "gold_answer": "Employees receive 10 days of paid sick leave per calendar year."
+  },
+  {
+    "id": "q03",
+    "question": "When do carried-forward annual leave days expire?",
+    "answerable": true,
+    "relevant_chunks": ["leave_policy_0"],
+    "gold_answer": "Carried-forward annual leave must be used by March 31 of the following year. Unused carried-forward days expire after March 31."
+  },
+  {
+    "id": "q04",
+    "question": "How long does a new employee have to enroll in the health insurance plan?",
+    "answerable": true,
+    "relevant_chunks": ["benefits_0"],
+    "gold_answer": "The initial benefits enrollment window remains open for 30 days after the employee's start date."
+  },
+  {
+    "id": "q05",
+    "question": "How much does Dunder Mifflin match of an employee's retirement contribution?",
+    "answerable": true,
+    "relevant_chunks": ["benefits_1"],
+    "gold_answer": "Dunder Mifflin matches 50% of the first 6% of eligible employee contributions."
+  },
+  {
+    "id": "q06",
+    "question": "What is the maximum reimbursable amount for an individual business meal?",
+    "answerable": true,
+    "relevant_chunks": ["expense_policy_0"],
+    "gold_answer": "The maximum reimbursable amount for an individual business meal is ₹1,500 including taxes."
+  },
+  {
+    "id": "q07",
+    "question": "Are alcoholic beverages reimbursable as business expenses?",
+    "answerable": true,
+    "relevant_chunks": ["expense_policy_1"],
+    "gold_answer": "No. Alcoholic beverages are not reimbursable."
+  },
+  {
+    "id": "q08",
+    "question": "What approval is required for equipment purchases above ₹15,000?",
+    "answerable": true,
+    "relevant_chunks": ["expense_policy_1"],
+    "gold_answer": "Equipment purchases above ₹15,000 require department-head approval before purchase."
+  },
+  {
+    "id": "q09",
+    "question": "What is the minimum required length for a company password?",
+    "answerable": true,
+    "relevant_chunks": ["it_security_0"],
+    "gold_answer": "Company passwords must contain at least 12 characters."
+  },
+  {
+    "id": "q10",
+    "question": "What should an employee do if they receive an unexpected MFA request?",
+    "answerable": true,
+    "relevant_chunks": ["it_security_1"],
+    "gold_answer": "Employees should not approve unexpected MFA requests and should report them to IT Security."
+  },
+  {
+    "id": "q11",
+    "question": "How many days per week can eligible employees work remotely?",
+    "answerable": true,
+    "relevant_chunks": ["remote_work_0"],
+    "gold_answer": "Eligible employees may work remotely for up to 2 days per week after completing their probation period, subject to manager approval and business requirements."
+  },
+  {
+    "id": "q12",
+    "question": "What are the core working hours for employees working remotely?",
+    "answerable": true,
+    "relevant_chunks": ["remote_work_0", "remote_work_1"],
+    "gold_answer": "Remote employees must remain available from 10:00 AM to 5:00 PM, Monday through Friday."
+  },
+  {
+    "id": "q13",
+    "question": "Who must approve international business travel?",
+    "answerable": true,
+    "relevant_chunks": ["travel_policy_0"],
+    "gold_answer": "International business travel requires approval from the employee's reporting manager, department head, and the Finance team before booking."
+  },
+  {
+    "id": "q14",
+    "question": "What class of air travel can employees book for domestic business trips?",
+    "answerable": true,
+    "relevant_chunks": ["travel_policy_1"],
+    "gold_answer": "Employees may book economy-class air travel for domestic business trips."
+  },
+  {
+    "id": "q15",
+    "question": "What system should employees use to purchase standard office supplies?",
+    "answerable": true,
+    "relevant_chunks": ["procurement_0", "procurement_1"],
+    "gold_answer": "Employees should use the company's approved procurement system, with routine office supplies requested through the office procurement system."
+  },
+  {
+    "id": "q16",
+    "question": "Can employees use personal funds for recurring business purchases?",
+    "answerable": true,
+    "relevant_chunks": ["procurement_0"],
+    "gold_answer": "Employees should not use personal funds for recurring business purchases unless the purchase has been approved under the applicable expense process."
+  },
+  {
+    "id": "q17",
+    "question": "What are Dunder Mifflin's standard office hours?",
+    "answerable": true,
+    "relevant_chunks": ["employee_handbook_1"],
+    "gold_answer": "Standard office hours are 9:00 AM to 6:00 PM, Monday through Friday, with a one-hour lunch break."
+  },
+  {
+    "id": "q18",
+    "question": "What is Dunder Mifflin's policy for employees bringing pet llamas into the office?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null
+  },
+  {
+    "id": "q19",
+    "question": "How many paid vacation days does Dunder Mifflin give employees after ten years of service?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null
+  },
+  {
+    "id": "q20",
+    "question": "What is the company's policy on employees receiving bonuses for exceeding their sales targets?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null
+  },
+  {
+    "id": "q21",
+    "question": "What is the maximum annual reimbursement available for job-related courses or certifications?",
+    "answerable": true,
+    "relevant_chunks": ["benefits_1", "benefits_2"],
+    "gold_answer": "Employees may request reimbursement of up to ₹20,000 per calendar year for approved job-related courses, certifications, or conferences. The employee's manager must approve the request before the course or event is purchased."
+  },
+  {
+    "id": "q22",
+    "question": "Who should employees contact about questions concerning health insurance and retirement benefits?",
+    "answerable": true,
+    "relevant_chunks": ["benefits_4"],
+    "gold_answer": "Questions about health insurance, retirement savings, or benefits enrollment should be directed to the People Operations team."
+  },
+  {
+    "id": "q23",
+    "question": "How long do employees normally have to submit an expense claim?",
+    "answerable": true,
+    "relevant_chunks": ["expense_policy_2"],
+    "gold_answer": "Expense claims should normally be submitted within 15 calendar days of the expense being incurred."
+  },
+  {
+    "id": "q24",
+    "question": "At what expense amount are receipts required?",
+    "answerable": true,
+    "relevant_chunks": ["expense_policy_2"],
+    "gold_answer": "Receipts are required for expenses of ₹500 or more."
+  },
+  {
+    "id": "q25",
+    "question": "How quickly must a lost company device be reported to IT Security?",
+    "answerable": true,
+    "relevant_chunks": ["it_security_2"],
+    "gold_answer": "Lost or stolen company devices must be reported to IT Security within 4 hours of discovery. Employees should also notify their manager."
+  },
+  {
+    "id": "q26",
+    "question": "What approval is required for equipment costing ₹15,000 or less?",
+    "answerable": true,
+    "relevant_chunks": ["procurement_2"],
+    "gold_answer": "Equipment purchases of ₹15,000 or less require manager approval."
+  },
+  {
+    "id": "q27",
+    "question": "What equipment does the company provide to eligible remote employees?",
+    "answerable": true,
+    "relevant_chunks": ["remote_work_2"],
+    "gold_answer": "The company provides eligible remote employees with a laptop and required security software."
+  },
+  {
+    "id": "q28",
+    "question": "How much hotel accommodation can be reimbursed per night in a Tier 1 city?",
+    "answerable": true,
+    "relevant_chunks": ["travel_policy_1", "travel_policy_2"],
+    "gold_answer": "Hotel accommodation is reimbursable up to ₹6,000 per night for travel to Tier 1 cities."
+  },
+  {
+    "id": "q29",
+    "question": "How long is the normal probation period for new employees?",
+    "answerable": true,
+    "relevant_chunks": ["employee_handbook_2"],
+    "gold_answer": "New employees normally complete a six-month probation period."
+  },
+  {
+    "id": "q30",
+    "question": "How much maternity leave does Dunder Mifflin provide to employees?",
+    "answerable": false,
+    "relevant_chunks": [],
+    "gold_answer": null
+  }
+
+]
